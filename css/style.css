@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe, h1, h2, h5, h6, p, blockquote, pre, a, abbr, button, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+}
+
+@font-face {
+    font-family: Myriad pro ;
+    src: local(Myriad pro),
+    url(../fonts/MyriadPro-BoldIt.otf);
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    border-top: 4px solid #e3e3e3;
+    font-family: Arial;
+}
+.wrapper {
+    margin: 15px 23px 0 25px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+.title__logo {
+    margin-left: 33px;
+    font-family: "Myriad pro";
+    font-size: 37px;
+}
+.orangeTitle {
+    color: #fd7d10;
+}
+.greenTitle {
+    color: #95c443;
+}
+.title__search {
+    border: 1px solid #e4e2e0;
+    border-radius: 6px;
+    height: 30px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.title__search input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    margin-left: 13px;
+    color: #b5b5b5;
+}
+.title__search button {
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #f0eeee;
+    width: 50px;
+}
+
+.info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.info__slider {
+    min-width: 714px;
+    max-height: 260px;
+}
+.info__contact {
+    min-width: 320px;
+    margin: 0 20px 0 20px;
+}
+#info__contact__phone {
+    font-size: 14px;
+}
+#info__contact__number {
+    font-size: 23px;
+    margin: 10px 0 15px 0;
+}
+#info__contact__workinghours {
+    font-size: 12px;
+}
+
+.info__contact__button button img{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.info__contact__button button{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #fd7d10, #f55609);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: 65px;
+}
+

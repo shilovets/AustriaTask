@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/solid.css" integrity="sha384-Rw5qeepMFvJVEZdSo1nDQD5B6wX0m7c5Z/pLNvjkB14W6Yki1hKbSEQaX9ffUbWe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/fontawesome.css" integrity="sha384-GVa9GOgVQgOk+TNYXu7S/InPTfSDTtBalSgkgqQ7sCik56N9ztlkoTr2f/T44oKV" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <title>MojaAustria</title>
+    <script>
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                controls: true
+            });
+        });
+    </script>
+</head>
+<body>
+<wrapper>
+    <div class="wrapper">
+        <header>
+            <div class="title">
+                <div class="title__logo">
+                    <span class="orangeTitle">Moja</span>
+                    <span class="greenTitle">Austria</span>
+                </div>
+                <form class="title__search">
+                    <input type="text" placeholder="Поиск по сайту"/>
+                    <button type="button"><img src="images/loupe.png"/></button>
+                </form>
+            </div>
+            <section class="info">
+                <div class="info__slider">
+                    <div class="slider">
+                        <div><img src="images/img1.png" title="Сайт для тех, кто планирует жить в Австрии, или хочет<br> поближе познакомиться с этой страной"></div>
+                        <div><img src="images/img1.png" title="Сайт для тех, кто планирует жить в Австрии, или хочет<br> поближе познакомиться с этой страной"></div>
+                        <div><img src="images/img1.png" title="Сайт для тех, кто планирует жить в Австрии, или хочет<br> поближе познакомиться с этой страной"></div>
+                    </div>
+                </div>
+                <div class="info__contact">
+                    <p id="info__contact__phone">Телефон</p>
+                    <p id="info__contact__number">+356 (0)6 601 530</p>
+                    <span id="info__contact__workinghours">Время работы:<br>  пн-пт с 9.00 до 20.00<br> <span class="orangeTitle">сб-вс</span> с 9.00 до 18.00 </span>
+                    <form class="info__contact__button">
+                        <button type="submit">Cвязаться с нами<img src="images/contactus.png"/> </button>
+                    </form>
+                </div>
+            </section>
+        </header>
+    </div>
+</wrapper>
+
+</body>
+</html>
