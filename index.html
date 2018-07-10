@@ -20,7 +20,7 @@
     </script>
 </head>
 <body>
-<wrapper>
+<div class="container">
     <div class="wrapper">
         <header>
             <div class="title">
@@ -45,14 +45,181 @@
                     <p id="info__contact__phone">Телефон</p>
                     <p id="info__contact__number">+356 (0)6 601 530</p>
                     <span id="info__contact__workinghours">Время работы:<br>  пн-пт с 9.00 до 20.00<br> <span class="orangeTitle">сб-вс</span> с 9.00 до 18.00 </span>
-                    <form class="info__contact__button">
-                        <button type="submit">Cвязаться с нами<img src="images/contactus.png"/> </button>
+                    <form >
+                        <div class="info__contact__button">
+                            <button type="submit">Cвязаться с нами<img src="images/contactus.png"/> </button>
+                        </div>
                     </form>
                 </div>
             </section>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">Цены</a></li>
+                    <li><a href="#">Вакансии</a></li>
+                    <li><a href="#">Статьи</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
         </header>
+        <main>
+            <aside>
+                <div class="offer-link">
+                    <ul>
+                        <li><a href="#"><img src="images/offer-link1.png" /> Пути иммиграции в Австрию </a></li>
+                        <li><a href="#"><img src="images/offer-link2.png" />Покупка и аренда недвижимости </a></li>
+                        <li><a href="#"><img src="images/offer-link3.png" /> Полезная информация </a></li>
+                        <li><a href="#"><img src="images/offer-link4.png" /> Об Австрии </a></li>
+                        <li><a href="#"><img src="images/offer-link5.png" /> Изучаем словенский<br> язык </a></li>
+                        <li><a href="#"><img src="images/offer-link6.png" /> Как добраться в <br>Австрию, визы </a></li>
+                    </ul>
+                </div>
+                <div class="feedback">
+                    <form class="feedback__form">
+                        <p class="feedback__form__title">Обратная связь</p>
+                        <label>ФИО</label>
+                        <input type="text" class="feedback__form__inputs">
+                        <label>Email или Телефон</label>
+                        <input type="text" class="feedback__form__inputs">
+                        <label>Текст сообщения</label>
+                        <textarea class="feedback__form__inputs" wrap="off"></textarea>
+                        <div class="info__contact__button">
+                            <button type="submit">Отправить<img src="images/contactus.png"/> </button>
+                        </div>
+                    </form>
+                </div>
+            </aside>
+            <div class="content">
+                <section class="items">
+                    <article class="item">
+                        <div class="item__title">
+                            <img src="images/article1.png">
+                            <h3>Почему Австрия?</h3>
+                        </div>
+
+                        <p>В мире очень мало стран, которые могли бы предложить Вам такое разнообразие ощущений, которое дарит своим гостям Австрия.</p>
+                        <h4>Основные преимущества Австрии</h4>
+                        <ul>
+                            <li><b>Расположение</b></li>
+                            <li><b>Безопасность</b></li>
+                            <li>По сравнению с Латвией и Чехией <b>легко иммигрировать</b></li>
+                            <li>– за <b>325 евро в месяц</b> страховка на всю семью и право </li>
+                            <li>жить тут</li>
+                        </ul>
+                        <form >
+                            <div class="item__button">
+                                <button type="submit">Читать далее<img src="images/itemArrowButton.png"/> </button>
+                            </div>
+                        </form>
+                    </article>
+                    <article class="item" id="item2">
+                        <div class="item__title">
+                            <img src="images/article2.png">
+                            <h3 id="item__title__h3">Преимущества работы с нами</h3>
+                        </div>
+                        <h4>Главные достоинства нашей компани</h4>
+                        <ul class="item_2ndUl">
+                            <li><b>Оказываем консультации </b> по вопросам иммиграции, налогообложения, ведения бухгалтерии, получения социальных льгот, мед. обслуживания и т.д.</li>
+                            <li id="item__2ndLi">Подскажем оптимальный способ <b>выполнения требований к документам</b> гос органов </li>
+                            <li>Помощь в о<b>формлении краткосрочных виз</b>, поиске/брони отеля или апартаментов, аренде автомобиля</li>
+                            <li>Все Ваши накладные расходы мы стремимся уменьшить, работая с <b>проверенными бухгалтерами, нотариусом, судебными переводчиками </b></li>
+                        </ul>
+                        <form >
+                            <div class="item__button">
+                                <button type="submit">Читать далее<img src="images/itemArrowButton.png"/> </button>
+                            </div>
+                        </form>
+                    </article>
+                </section>
+                <section class="news__block">
+                    <p class="news__block__title">
+                        Новости
+                    </p>
+                    <div class="news__line1">
+                        <article class="news">
+                            <img src="images/news1.png">
+                            <p class="news__title">Покорение Альп - слет
+                                любителей скалолазания
+                            </p>
+                            <p class="news__description">Прошел ежегодный слет любителей скалолазания
+                            </p>
+                            <a href="#">Подробнее</a>
+                            <time datetime="12.08.2012">12.08.2012</time>
+                        </article>
+                        <article class="news">
+                            <img src="images/news2.png">
+                            <p class="news__title">Покорение Альп - слет
+                                любителей скалолазания
+                            </p>
+                            <p class="news__description">В середине июля 2012 года прошел ежегодный слет любителей туризма и скалолазания
+                            </p>
+                            <a href="#">Подробнее</a>
+                            <time datetime="12.08.2012">12.08.2012</time>
+                        </article>
+                        <article class="news">
+                            <img src="images/news3.png">
+                            <p class="news__title">Покорение Альп - слет
+                                любителей скалолазания
+                            </p>
+                            <p class="news__description">Прошел ежегодный слет любителей скалолазания
+                            </p>
+                            <a href="#">Подробнее</a>
+                            <time datetime="12.08.2012">12.08.2012</time>
+                        </article>
+                    </div>
+                    <div class="news__line2">
+                        <article class="news">
+                            <img src="images/news1.png">
+                            <p class="news__title">Покорение Альп - слет
+                                любителей скалолазания
+                            </p>
+                            <p class="news__description">Прошел ежегодный слет любителей скалолазания
+                            </p>
+                            <a href="#">Подробнее</a>
+                            <time datetime="12.08.2012">12.08.2012</time>
+                        </article>
+                        <article class="news">
+                            <img src="images/news2.png">
+                            <p class="news__title">Покорение Альп - слет
+                                любителей скалолазания
+                            </p>
+                            <p class="news__description">Прошел ежегодный слет любителей скалолазания
+                            </p>
+                            <a href="#">Подробнее</a>
+                            <time datetime="12.08.2012">12.08.2012</time>
+                        </article>
+                    </div>
+                    <a id="subscribe" href="#">Подписаться на рассылку новостей и анонсов <img src="images/subscribe.png"/></a>
+                </section>
+            </div>
+        </main>
     </div>
-</wrapper>
+
+</div>
+<footer>
+    <p id="copyright">&copy; 2012 site.ru</p>
+    <nav class="footer__nav">
+        <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="footer__info">
+        <p id="footer__info__number">
+            +386 (0)1 6001 530
+        </p>
+        <div class="footer__info__link">
+            <a href="#">info@site.ru</a>
+            <img src="images/footer.png">
+        </div>
+
+    </div>
+</footer>
 
 </body>
 </html>
